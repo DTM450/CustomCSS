@@ -1,5 +1,3 @@
 # CustomCSS
-Custom CSS for different things
-
-Current CSS for:
+Custom CSS for:
 * UserStyles Addon
