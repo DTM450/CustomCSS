@@ -1,2 +1,5 @@
 # CustomCSS
-Custom CSS for use with UserStyle browser addon
+Custom CSS for different things
+
+Current CSS:
+UserStyles Addon
