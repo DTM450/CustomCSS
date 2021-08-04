@@ -1,0 +1,46 @@
+@-moz-document url-prefix("https://www.youtube.com/playlist") {
+ @media screen and (max-width: 850px) {
+     ytd-playlist-sidebar-renderer.ytd-browse,
+     ytd-settings-sidebar-renderer.ytd-browse {
+         position: relative;
+         left: 0;
+         height: auto;
+     }
+     ytd-playlist-sidebar-renderer[responsive] {
+         width: auto;
+         margin: auto;
+         padding: 24px;
+         overflow-x: hidden;
+     }
+     #owner-container.ytd-playlist-sidebar-secondary-info-renderer{
+         margin-bottom:0;
+         padding-bottom:0;
+     }
+     ytd-playlist-sidebar-renderer[responsive]{
+         margin-bottom:0;
+         padding-bottom:0; 
+     }
+     ytd-browse[guide-persistent-and-visible] ytd-playlist-sidebar-renderer.ytd-browse {
+         left: 0;
+     }
+     ytd-browse[mini-guide-visible] ytd-playlist-sidebar-renderer.ytd-browse {
+         left: 0;
+     }
+     ytd-browse[responsive-playlist][page-subtype="playlist"][has-sidebar_] ytd-two-column-browse-results-renderer.ytd-browse {
+         padding-left: 0px;
+         padding-bottom: 500px;
+     }
+     ytd-browse[page-subtype="playlist"][has-sidebar_] ytd-two-column-browse-results-renderer.ytd-browse {
+         padding-left: 0px;
+         padding-bottom: 500px;
+     }
+     ytd-miniplayer {
+         --ytd-miniplayer-width: auto;
+         left: 0;
+         right: 0;
+     }
+     ytp-chapters-container{
+         width:auto;
+     }
+ }
+}
