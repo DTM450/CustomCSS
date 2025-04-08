@@ -1,5 +1,8 @@
 @-moz-document domain("deezer.com") {
     .page-topbar .topbar-search {
-      width: 50%;
+      width: 75%;
+    }
+    .page-topbar .popper-lg {
+      width: 100%;
     }
 }
